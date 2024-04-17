@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import HomeCard from "./HomeCard";
-// import MeetingModal from "./MeetingModal";
+import MeetingModal from "./MeetingModal";
 // import { Call, useStreamVideoClient } from "@stream-io/video-react-sdk";
 import { useUser } from "@clerk/nextjs";
 import Loader from "./Loader";
@@ -147,9 +147,9 @@ const MeetingTypeList = () => {
           className="text-center"
           buttonText="Copy Meeting Link"
         />
-      )}
+      )} */}
 
-      <MeetingModal
+      {/* <MeetingModal
         isOpen={meetingState === "isJoiningMeeting"}
         onClose={() => setMeetingState(undefined)}
         title="Type the link here"
@@ -162,7 +162,7 @@ const MeetingTypeList = () => {
           onChange={(e) => setValues({ ...values, link: e.target.value })}
           className="border-none bg-dark-3 focus-visible:ring-0 focus-visible:ring-offset-0"
         />
-      </MeetingModal>
+      </MeetingModal> */}
 
       <MeetingModal
         isOpen={meetingState === "isInstantMeeting"}
@@ -170,8 +170,8 @@ const MeetingTypeList = () => {
         title="Start an Instant Meeting"
         className="text-center"
         buttonText="Start Meeting"
-        handleClick={createMeeting}
-      /> */}
+        // handleClick={createMeeting}
+      />
     </section>
   );
 };
