@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Confera",
   description: "Video Conferencing App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/confera-icon.svg",
   },
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/confera-logo.svg",
           },
           variables: {
             colorText: "#fff",
