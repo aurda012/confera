@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src="" alt="Project Banner">  
+      <img src="https://raw.githubusercontent.com/aurda012/confera/main/public/images/confera-github-banner.png" style="border-radius: 20px" alt="Project Banner">  
   <br />
 
   <div>
